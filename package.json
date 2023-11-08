@@ -1,0 +1,14 @@
+{
+  "name": "ShippingErrorApp",
+  "version": "1.0.0",
+  "dependencies": {
+  
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm run server & npm run client",
+    "server": "cd D:/Mouser/ShippingErrorApp && start /b mvn spring-boot:run",
+    "client": "cd front-end && npm start"
+  }
+}
+
